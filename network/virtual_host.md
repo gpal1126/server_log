@@ -1,10 +1,11 @@
 # 가상호스트(Virtual Host)란?
-- 기본적으로 존재하는 메인 호스트를 제외한 나머지 호스트들  
-  
-  
+- 기본적으로 존재하는 메인 호스트를 제외한 나머지 호스트들    
+    
+    
 ## 이름기반의 가상호스트(Name-based virtual host)
 - 하나의 IP 주소에 여러개의 가상호스트를 운용하는 것  
-ex) host    x.x.x.x   
+ex)  
+    host    x.x.x.x   
     domain    www.example.com  
     domain    www.example.kr  
     domain    www.example.net  
@@ -12,7 +13,8 @@ ex) host    x.x.x.x
   
 ## 주소기반의 가상호스트(Ip-based virtual host)
 - 가상 호스트 각각에 하나씩의 IP 주소를 할당하여 운용하는 것  
-ex) host    x.x.x.x1  
+ex)  
+    host    x.x.x.x1  
     domain    www.example.com  
     host    x.x.x.x2  
     domain    www.example.kr  
@@ -22,7 +24,8 @@ ex) host    x.x.x.x1
   
 ## 포트기반의 가상호스트(Port-based virtual host)
 - 하나의 호스트에 포트만 다르게 지정하여 운용하는 것  
-ex) main-host    x.x.x.x:80  
+ex)  
+    main-host    x.x.x.x:80  
     host       x.x.x.x:8001  
     domain       www.example.com  
     host       x.x.x.x:8002  
